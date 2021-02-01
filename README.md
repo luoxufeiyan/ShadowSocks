@@ -1,8 +1,9 @@
-shadowsocks
+ShadowFlying
 ===========
 
-[![PyPI version]][PyPI]
-[![Build Status]][Travis CI]
+ShadowFlying is a fork of shadowsocks with absolutely no warranty. 
+
+Special thanks to [shadowsocks project](https://github.com/shadowsocks/shadowsocks) and [clowwindy](https://github.com/clowwindy). 
 
 A fast tunnel proxy that helps you bypass firewalls.
 
@@ -16,7 +17,22 @@ Features:
 Server
 ------
 
+
 ### Install
+
+#### Simple install
+
+For Debian / Ubuntu only: 
+
+```
+git clone https://github.com/luoxufeiyan/ShadowFlying.git
+cd ShadowFlying
+bash server.sh
+```
+
+For client, use `bash local.sh` .
+
+#### pip install
 
 Debian / Ubuntu:
 
@@ -85,13 +101,4 @@ License
 Apache License
 
 
-
-
-
-
-
-[Build Status]:      https://img.shields.io/travis/shadowsocks/shadowsocks/master.svg?style=flat
-[PyPI]:              https://pypi.python.org/pypi/shadowsocks
-[PyPI version]:      https://img.shields.io/pypi/v/shadowsocks.svg?style=flat
-[Travis CI]:         https://travis-ci.org/shadowsocks/shadowsocks
 

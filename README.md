@@ -1,4 +1,4 @@
-ShadowFlying
+ShadowSocks
 ===========
 
 ShadowFlying is a fork of shadowsocks with absolutely no warranty. 
@@ -25,8 +25,8 @@ Server
 For Debian / Ubuntu only: 
 
 ```
-git clone https://github.com/luoxufeiyan/ShadowFlying.git
-cd ShadowFlying
+git clone https://github.com/luoxufeiyan/ShadowSocks.git
+cd ShadowSocks
 bash server.sh
 ```
 
